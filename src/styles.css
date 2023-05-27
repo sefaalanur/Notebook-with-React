@@ -1,0 +1,55 @@
+body {
+  background-color: #1f1f1f !important;
+  font-family: "Trebuchet MS", Arial, sans-serif; 
+}
+label {
+  color: #f2f2f2;
+  font-size: 30px;
+}
+.createArea{
+  justify-items: center;
+  padding: 20px ;
+  display: flex ;
+}
+.date-container {
+  display: flex;
+  justify-content: flex-end;
+  color: #f2f2f2;
+  margin:1rem;
+}
+.inputs {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+button {
+  width: fit-content;
+  padding: 0.5rem 1.5rem;
+  border: solid 2px #8b005d;
+  border-radius: 10px !important;
+  color: white;
+  background: #8b005d;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(0, 0, 0, 26);
+}
+.starter {
+  text-align: center;
+  border: solid 2px #8b005d;
+  border-radius: 10px;
+  width:fit-content;
+  padding: 10px;
+  margin-top: 2rem;
+  cursor: pointer;
+  background-color:aliceblue;
+}
+.starter:hover {
+  color: #8b005d;
+}
+.notes {
+  color:#6667AB ;
+  margin-bottom: 4rem;
+}
